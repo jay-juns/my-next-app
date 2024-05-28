@@ -14,7 +14,7 @@ const AdminDashboard = () => {
   }, [user, loading, isAdmin, router]);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div>로딩중...</div>;
   }
 
   return <div>Welcome to the Admin Dashboard, {user?.email}!</div>;
