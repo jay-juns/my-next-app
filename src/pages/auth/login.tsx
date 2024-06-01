@@ -36,12 +36,12 @@ const Login = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="이메일 입력"
-        />ㄴ
+        />
         <input
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="비밀번호 입력"
+          placeholder="Password"
         />
         <button type="submit">로그인 하기</button>
       </form>
